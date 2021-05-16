@@ -46,7 +46,8 @@ warnings.filterwarnings(action='ignore')
 bot = commands.Bot(command_prefix='!')
 
 opggsummonersearch = 'https://www.op.gg/summoner/userName='
-bottoken = 'ODQzMTMzODU4OTI5MzExNzQ0.YJ_bmA.XTKxmoEFHQg2u7LK1FiHh1s9YRA'
+access_token =  os.environ['BOT_TOKEN']
+bottoken = (access_token)
 
 '''
 Simple Introduction about asyncio
